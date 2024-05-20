@@ -1,4 +1,5 @@
 Feature: Login
+  @Test
   Scenario: As a user, I can do login
     Given User is in login page
     When User input username
@@ -6,7 +7,7 @@ Feature: Login
     And User click button login
     Then User redirect to homepage
 
-    @Test
+
     Scenario: As a user, I cannot login with invalid user
       Given User is in login page
       When User input invalid username
