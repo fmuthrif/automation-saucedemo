@@ -1,5 +1,5 @@
 Feature: Filter Product
-
+  @Test
   Scenario: User can filter product
     Given User is in login page
     When User input username

@@ -20,7 +20,6 @@ public class filterStep extends env {
         WebElement selectElement = driver.findElement(elementFilter.getFilterIcon());
         Select select = new Select(selectElement);
         select.selectByValue("hilo");
-
     }
     @Then("User see result filter")
     public void user_see_result_filter() {
